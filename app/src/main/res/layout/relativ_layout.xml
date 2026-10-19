@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/label_name"
+        android:text="@string/app_name"
+        android:layout_alignParentStart="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/label_surname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp"
+        android:text="@string/rl_label_name" />
+
+    <TextView
+        android:id="@+id/label_surname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="217dp"
+        android:text="@string/rl_label_name2" />
+    <TextView
+        android:id="@+id/label_surname3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:text="20 años" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALLE XXX"
+        android:layout_below="@id/label_name"/>
+
+    <TextView
+        android:id="@+id/bloque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloque"
+        android:layout_marginStart="217dp"
+        android:layout_below="@id/label_surname1"
+        />
+
+    <TextView
+        android:id="@+id/telf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_surname2"
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="5dp"
+        android:text="+ 34 600 00 00 00"
+        android:textSize="11sp" />
+</RelativeLayout>
