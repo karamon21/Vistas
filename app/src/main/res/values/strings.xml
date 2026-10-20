@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VistaKata</string>
+    <string name="rl_label_name">Apellido 1</string>
+    <string name="rl_label_name2">Apellido 2</string>
+    <string name="rl_label_age"> edad: </string>+
+    <string name="rl_label_address">adres: </string>
+</resources>
